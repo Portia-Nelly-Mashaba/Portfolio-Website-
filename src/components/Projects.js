@@ -9,7 +9,7 @@ import ShoppingList from "./../assets/shoppingList-app.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="My Projects @CodeTribe" titleNo="03" />
+      <SectionTitle title="Featured Projects" titleNo="03" />
       <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           {" "}

@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Career from "./components/Career";
 import Projects from "./components/Projects";
 import Archieve from "./components/Archieve";
-import Assessment from "./components/Assessment";
-import OtherInfo from "./components/OtherInfo";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -29,10 +29,10 @@ function App() {
           <Hero />
           <About />
           <Skills />
+          <Career />
           <Projects />
           <Archieve />
-          <Assessment />
-          <OtherInfo />
+          <Contact />
           <Footer />
         </div>
         <motion.div

@@ -33,8 +33,8 @@ const Navbar = () => {
             <a href="#projects" className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
               <motion.li initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.4 }}><span className="text-textGreen">03.</span> Projects</motion.li>
             </a>
-            <a href="#assessments" className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
-              <motion.li initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}><span className="text-textGreen">04.</span> Assessments</motion.li>
+            <a href="#contact" className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+              <motion.li initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}><span className="text-textGreen">04.</span> Contact</motion.li>
             </a>
           </ul>
           <a href={resume} target="_blank">
@@ -56,7 +56,7 @@ const Navbar = () => {
             <a href="#about" onClick={toggleMenu}>01. About</a>
             <a href="#skills" onClick={toggleMenu}>02. Skills</a>
             <a href="#projects" onClick={toggleMenu}>03. Projects</a>
-            <a href="#assessments" onClick={toggleMenu}>04. Assessments</a>
+            <a href="#contact" onClick={toggleMenu}>04. Contact</a>
           </ul>
         </div>
       )}

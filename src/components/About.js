@@ -13,45 +13,64 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Portia Mashaba, and I am passionate about creating
-            impactful digital solutions. My journey into web and mobile
-            development began with a fascination for technology and its ability
-            to solve real-world problems.
+            Hello! My name is Portia Mashaba, and I am a versatile software
+            developer with a passion for creating impactful digital solutions
+            across multiple platforms and technologies. My expertise spans web
+            development, mobile applications, backend systems, and database
+            management.
           </p>
           <p>
-            Before joining CodeTribe Academy, I gained foundational experience
-            in Python, Flutter, Laravel, and database management. During my time
-            at CodeTribe, I honed my skills in collaboration, time management,
-            and presenting ideas effectively.
-          </p>
-          <p>
-            Fast-forward to today, I am a dynamic software developer with
-            expertise in{" "}
+            I have a strong foundation in{" "}
             <span className="text-textGreen">
-              full-stack development, software testing, and UI/UX design.
-            </span>{" "}
-            At CodeTribe, I’ve grown into a more efficient coder, capable of
-            managing end-to-end projects and delivering user-centric
-            applications.
+              Python, Flutter, Laravel, React, React Native, Node.js, MongoDB,
+              MySQL, and various database systems
+            </span>
+            . This diverse technical background allows me to approach problems
+            from multiple angles and choose the best technology stack for each
+            project.
           </p>
           <p>
-            <span className="text-textGreen">My aspiration</span> is to continue
-            building innovative, scalable solutions while contributing to the
-            tech ecosystem through mentorship and knowledge-sharing.
+            My experience includes building full-stack applications, RESTful
+            APIs, mobile apps with React Native, web applications with React
+            and Laravel, and managing databases with MongoDB and MySQL. I'm
+            skilled in{" "}
+            <span className="text-textGreen">
+              software testing, UI/UX design, and end-to-end project
+              management
+            </span>
+            .
           </p>
-          <p>Here are a few technologies I have been working with recently:</p>
+          <p>
+            <span className="text-textGreen">My goal</span> is to continue
+            building innovative, scalable solutions while contributing to the
+            tech ecosystem. I'm always eager to learn new technologies and
+            tackle challenging problems.
+          </p>
+          <p>Here are some of the technologies I work with:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
-              JavaScript
+              Python
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
-              React Native
+              Flutter
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillCode />
+              </span>{" "}
+              Laravel
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillCode />
+              </span>{" "}
+              JavaScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -63,13 +82,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
-              Node.js
+              React Native
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
-              TypeScript
+              Node.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -81,13 +100,25 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
+              MySQL
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillCode />
+              </span>{" "}
               Express.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillCode />
               </span>{" "}
-              Tailwindcss
+              PHP
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillCode />
+              </span>{" "}
+              Tailwind CSS
             </li>
           </ul>
         </div>
