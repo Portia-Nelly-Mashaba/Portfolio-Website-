@@ -37,7 +37,7 @@ const Navbar = () => {
               <motion.li initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}><span className="text-textGreen">04.</span> Contact</motion.li>
             </a>
           </ul>
-          <a href={resume} target="_blank">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <motion.button initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6 }} className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">
               Resume
             </motion.button>

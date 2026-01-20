@@ -19,6 +19,7 @@ const Projects = () => {
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://github.com/Portia-Nelly-Mashaba/Hotel-App-v2.git"
               target="_blank"
+              rel="noopener noreferrer"
               alt="Hotel-App"
             >
               <div>
@@ -71,6 +72,7 @@ const Projects = () => {
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://github.com/Portia-Nelly-Mashaba/MERN-Recipe-App-.git"
               target="_blank"
+              rel="noopener noreferrer"
               alt="Hotel-App"
             >
               <div>
@@ -128,6 +130,7 @@ const Projects = () => {
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://github.com/Portia-Nelly-Mashaba/Redux-Shopping-List.git"
               target="_blank"
+              rel="noopener noreferrer"
               alt="MERN Recipe-App"
             >
               <div>

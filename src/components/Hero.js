@@ -40,7 +40,7 @@ const Hero = () => {
         leverage my broad technical knowledge to build innovative solutions that
         solve real-world problems.
         <br />
-        <a href="mailto:pnpnelly@gmail.com">
+        <a href="#contact">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             pnpnelly@gmail.com | +27 78 152 6964
             <span className="absolute w-full h-[2px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 translation-transform duration-500"></span>

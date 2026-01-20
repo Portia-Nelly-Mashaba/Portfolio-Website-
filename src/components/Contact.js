@@ -83,7 +83,7 @@ const Contact = () => {
               <span className="text-textGreen">Email:</span>{" "}
               <a
                 className="hover:text-textGreen"
-                href="mailto:pnpnelly@gmail.com"
+                href="#contact"
               >
                 pnpnelly@gmail.com
               </a>
